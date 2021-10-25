@@ -1,0 +1,261 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Mongoose",
+		"_postman_id": "c4787c24-5f90-1e11-0f6d-2f0280535f0b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:4444/v1/author",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/author",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 9\n\t\n}"
+				},
+				"description": "get all authors with books"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/author",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/author/6176f56981b0e0dccf9b9421",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 9\n\t\n}"
+				},
+				"description": "get author and theire books by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/books",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/books",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 9\n\t\n}"
+				},
+				"description": "get all authors with books"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/books",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/books/6177007c3e02f6a8221f6f0c",
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 9\n\t\n}"
+				},
+				"description": "get book by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/books/add",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/authors/add",
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 30\n\t\n}"
+				},
+				"description": "add books"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/authors/add",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/authors/add",
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Muhammd Ali\",\n    \"age\": 30\n\t\n}"
+				},
+				"description": "add author"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/books",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/books/617707b88b4e1184cfd9e930",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 9\n\t\n}"
+				},
+				"description": "delete a book by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/authors",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/authors/6177170e7466c9bbbf76eaba",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 9\n\t\n}"
+				},
+				"description": "delete a author by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/authors/6176d8d049e07d4e89139c35",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/authors/6176d8d049e07d4e89139c35",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"name\": \"Ali\",\n    \"age\": 30\n\t\n}"
+				},
+				"description": "update author"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:4444/v1/books/6176d8d049e07d4e89139c35",
+			"request": {
+				"url": "http://127.0.0.1:4444/v1/books/6177007c3e02f6a8221f6f0c",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "qwertyuiop[asdfghjklzxcvbnm]1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"title\": \"My Book\",\n    \"description\": \"description here...\",\n    \"isbn\": \"23323\",\n    \"author\": \"6177007c3e02f6a8221f6f0c\"\n\t\n}"
+				},
+				"description": "update book"
+			},
+			"response": []
+		}
+	]
+}
